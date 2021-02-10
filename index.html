@@ -6,10 +6,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Arabic alphabet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
-    <h1>Practice Arabic alphabet</h1>
+    <div class="container-sm container-main">
+        <div class="card">
+            <div class="card-header" style="text-align: center;">
+                <h5>Practice Arabic alphabet</h5>
+            </div>
+            <div class="card-body">
+                <nav>
+                    <div class="nav nav-tabs nav-justified" id="nav-tab" role="tablist">
+                        <a class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Writing</a>
+                        <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Reading</a>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div style="text-align: center; margin: 10px 0;">
+                            <button class="btn btn-primary" style="width: 100%;"><i class="fa fa-random"></i></button>
+                            <audio controls style="margin: 10px 0;">
+                                <source src="https://www.islamcan.com/learn-arabic/arabic-alphabets/001-alif.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Show the letter
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <img src="https://www.islamcan.com/learn-arabic/arabic-alphabets/001-alif.jpg" alt="letter" style="width:200px;height:200px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div style="text-align: center; margin: 10px 0;">
+                            <button class="btn btn-primary" style="width: 100%; z-index: 1;"><i class="fa fa-random"></i></button>
+                            <img style="margin: 5px 0; width:200px;height:200px;" src="https://www.islamcan.com/learn-arabic/arabic-alphabets/001-alif.jpg" alt="letter">
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <audio controls style="margin: 10px 0;">
+                                    <source src="https://www.islamcan.com/learn-arabic/arabic-alphabets/001-alif.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                Audios, Images: <a href="https://www.islamcan.com/">IslamCan</a>
+                <br>
+                <div>
+                    Icons: <i class="fa fa-font-awesome " style="color: black;"></i> <a href="https://fontawesome.com/">Font Awesome
+                     </a>
+                </div>
+                </br>
+                <div style="text-align: center;"> Made with <i class="fa fa-heart " style="color: red; "></i> by <a href="https://github.com/sadirbaev ">Sadirbaev</a> </div>
+                <div style="text-align: center;"> <i class="fa fa-github " style="color: black; "></i> <a href=https://github.com/sadirbaev/practice-arabic-alphabet ">Source code</a> </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW " crossorigin="anonymous "></script>
 </body>
 
 </html>

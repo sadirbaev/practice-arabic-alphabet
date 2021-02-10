@@ -1,0 +1,12 @@
+.container-main {
+    margin: 10px auto;
+    max-width: 480px;
+}
+
+.card-body {
+    padding: 5px;
+}
+
+.card-footer {
+    padding: 10px;
+}
